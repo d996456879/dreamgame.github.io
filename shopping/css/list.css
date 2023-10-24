@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id 4255685 */
+    src: url('/fonts/iconfont.woff2?t=1697298146426') format('woff2'),
+        url('/fonts/iconfont.woff?t=1697298146426') format('woff'),
+        url('/fonts/iconfont.ttf?t=1697298146426') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    border-left: 1px solid #c81523;
+    left: 190px;
+    top: 40px;
+}
+
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li{
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after{
+    content: "\e6a6";
+}
+
+.sk_bd {
+    width: 1215px;
+}
+
+.sk_bd ul li {
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    float: left;
+    margin-right: 13px;
+}
+
+.sk_bd ul li:hover {
+    border:1px solid #c81523;
+}
+
+.sk_bd ul li a p{
+    font-size: 12px;
+}
+
+.sk_bd ul li .price span:nth-of-type(1) {
+    color: red;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.sk_bd ul li .price {
+    margin-top: 10px;
+}
+
+.sk_bd ul li .price span::before {
+    content: "￥";
+    font-size: 12px;
+}
+
+.sk_bd ul li .sell_message .bar_f{
+    display: inline-block;
+    width: 140px;
+    height: 10px;
+    margin: 0 10px;
+    border:1px solid #c81523;
+    border-radius: 10px;
+}
+
+.sk_bd ul li .sell_message .bar_f .bar_s{
+    width: 87%;
+    height: 100%;
+    background-color: #c81523;
+    border: 1px solid #c81523;
+    border-radius:10px;
+}
+
+.sk_bd ul li .panic_buy {
+    display: block;
+    width: 100%;
+    height: 62px;
+    margin-top: 15px;
+    background-color: #c81523;
+    line-height: 62px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
